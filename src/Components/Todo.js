@@ -3,7 +3,7 @@ import {addTodo, deleteTodo, removeTodo} from '../actions/index';
 import {useDispatch} from 'react-redux';
 import "./todo.css";
 
-const todo = () => {
+const Todo = () => {
   const [inputData, setInputData] = useState("");
   const dispatch = useDispatch();
 
@@ -31,4 +31,4 @@ const todo = () => {
   );
 };
 
-export default todo;
+export default Todo;
