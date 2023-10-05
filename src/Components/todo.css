@@ -39,15 +39,24 @@ button:hover {
   align-items: center;
   margin: 20px auto;
 }
-.listStore{
-    display: flex;
-    text-align: center;
+.listStore {
+  display: flex;
+  text-align: center;
 }
-.listStore i{
-    height: 30px;
-    padding: 0px 100px;
-    color: red;
+.listStore i {
+  height: 30px;
+  padding: 0px 100px;
+  color: red;
 }
-.listStore i:hover{
-    color: pink;
+.listStore i:hover {
+  color: pink;
+}
+.effect04 {
+  color: black;
+  background-color: white;
+  margin: 10px;
+}
+.effect04:hover {
+  color: black;
+  background-color: white;
 }
