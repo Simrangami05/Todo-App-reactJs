@@ -28,28 +28,12 @@ button:hover {
   background-color: gray;
 }
 .eachItem {
-  background-color: rgb(80, 3, 80);
-  color: rgb(134, 235, 116);
   width: 200px;
   height: 30px;
   border: 1px solid black;
   border-radius: 3px;
   padding: 2px 5px;
-  justify-content: center;
-  align-items: center;
   margin: 20px auto;
-}
-.listStore {
-  display: flex;
-  text-align: center;
-}
-.listStore i {
-  height: 30px;
-  padding: 0px 100px;
-  color: red;
-}
-.listStore i:hover {
-  color: pink;
 }
 .effect04 {
   color: black;

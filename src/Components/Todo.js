@@ -35,13 +35,21 @@ const Todo = () => {
               return (
                 <div className="eachItem" key={elem.id}>
                   <div className="listStore">
-                    <h6 className="list">{elem.data}</h6>
-                    <div className="todo-btn">
-                      <i
-                        className="far fa-trash-alt add-btn"
-                        title="Delete Item"
-                        onClick={() => dispatch(deleteTodo(elem.id))}
-                      ></i>
+                    <div class="list-group list-group">
+                      <li class="list-group-item d-flex justify-content-between align-items-start">
+                        <div class="ms-2 me-auto">
+                          <div class="fw-bold">{elem.data}</div>
+                        </div>
+                        <span class="text-danger">
+                          <div className="todo-btn">
+                            <i
+                              className="far fa-trash-alt add-btn"
+                              title="Delete Item"
+                              onClick={() => dispatch(deleteTodo(elem.id))}
+                            ></i>
+                          </div>
+                        </span>
+                      </li>
                     </div>
                   </div>
                 </div>
