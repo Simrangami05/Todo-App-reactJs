@@ -1,0 +1,29 @@
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+.main-div {
+  justify-content: center;
+  align-items: center;
+  margin: 150px auto;
+}
+figure {
+  font-size: large;
+}
+input {
+  width: 300px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 2px 5px;
+}
+button {
+  height: 40px;
+  border-radius: 3px;
+  background-color: white;
+}
+button:hover {
+  background-color: gray;
+}
