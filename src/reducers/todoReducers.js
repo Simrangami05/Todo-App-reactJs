@@ -11,7 +11,7 @@ const todoReducers = (state = initialData, action) => {
 
       return {
         ...state,
-        data: [
+        list: [
           ...state.list,
           {
             id: id,
